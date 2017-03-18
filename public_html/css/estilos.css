@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2017, 7:03:48 PM
+    Author     : 00139265
+*/
+/*cabecera */
+#cabecera {
+ font-family: Arial;
+ font-weight: bold;
+ color: black;
+ font-size: 55px;
+ text-align: center;
+}
+
+
+h2{font-family: Arial;
+   font-weight: lighter;
+   font-size: 30px;
+color: rgb(59,192,194);
+   text-align: center;
+
+   
+
+}
+/*menu */
+ul li{
+    list-style-type: none;
+   background: black;
+    display:inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+    border-radius:10px;   
+}
+
+    a:link
+  {
+      color:red;
+  }
+
+  a:visited
+  {
+     color: rgb(89,192,194);
+     
+  }
+  a:active{
+      color:blue;
+  }
+    /*cambios al pasar el cursol por el menu */
+  a:hover{
+   
+   font-size:22px;
+   color:red;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(59,192,194);
+}
+
+
+#menu{
+    text-align: center;
+}
+
+/*cuerpo */
+#cuerpo {
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: rgb(59,192,194);
+}
+
+
+#cuerpo h3 {
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+/*pie */
+#pie{
+    
+    background: rgb(59,192,194);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 15px;
+   
+}
+
+
+ /*formulario */
+form{
+   
+margin: 0 auto;    
+width: 800px;
+padding: 2em;
+border: 1px solid black;
+border-radius: 2em;
+background: black;
+font-family: arial;
+font-weight: bold;
+  }
+   
+  form div {
+      /*margen de espacio entre texto del formulario */
+      margin-top: 1.5em;
+
+  }
+
+    /*cuadro dentro del formulario */
+  label{
+      display: inline-block;
+       /*alineacion del texto del fomulario */
+        text-align: right;
+       width: 200px;
+       align-content: center;
+       color:rgb(59,192,194)
+ }
+ 
+     /*ancho del cuadros del texto */
+
+  input, textarea{
+      font: 1em arial Gothic;
+      width:450px;
+      
+  }
+  
+  input:focus,textarea:focus
+  {
+  border-color:red;
+  }
+
+  
+  .centralizada{text-align: center}
+ .fondo{ background-color:  beige;} 
+ .boton {}
+ 
+ 
